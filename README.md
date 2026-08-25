@@ -19,6 +19,7 @@ I also work on repositories designed for new developers to help them build bots,
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
 ## 😘 Code Example Just For You
+I know I'm so helpful
 
 <details>
   <summary>Click to open this section</summary>
