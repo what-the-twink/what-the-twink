@@ -115,3 +115,11 @@ Bot sends an embed inside that channel
 Embed title = username
 
 Embed description = modal text
+
+<div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
+
+## 🌱 I know I am Just so Amazing
+You are so welcome for that example *mwah.
+Feel free to follow me maybe, of course only if you want to. 
+
+
