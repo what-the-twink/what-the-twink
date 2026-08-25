@@ -125,6 +125,7 @@ Feel free to follow me maybe, of course only if you want to.
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
 ## ✌️My Badges
+Totally not fake 👀😙
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff)
