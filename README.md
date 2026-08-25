@@ -98,6 +98,9 @@ module.exports = {
 };
 ```
 </details>
+
+<div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
+  
 ### 🧠 How it works
 User runs /createpanel
 
