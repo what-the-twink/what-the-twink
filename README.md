@@ -22,6 +22,7 @@ I also work on repositories designed for new developers to help them build bots,
 
 <details>
   <summary>Click to open this section</summary>
+  
 ```js
 const {
   SlashCommandBuilder,
@@ -96,6 +97,7 @@ module.exports = {
   }
 };
 ```
+</details>
 ### 🧠 How it works
 User runs /createpanel
 
