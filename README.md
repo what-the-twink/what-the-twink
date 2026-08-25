@@ -20,6 +20,8 @@ I also work on repositories designed for new developers to help them build bots,
 
 ## 😘 Code Example Just For You
 
+<details>
+  <summary>Click to open this section</summary>
 ```js
 const {
   SlashCommandBuilder,
@@ -58,3 +60,53 @@ module.exports = {
   }
 };
 ```
+
+```js
+module.exports = {
+  async execute(interaction) {
+
+    // Check if it's the modal
+    if (interaction.isModalSubmit() && interaction.customId === 'panelModal') {
+
+      // Get the text input
+      const text = interaction.fields.getTextInputValue('panelText');
+
+      // Create a new channel
+      const channel = await interaction.guild.channels.create({
+        name: `panel-${interaction.user.username}`,
+        type: ChannelType.GuildText
+      });
+
+      // Build the embed
+      const embed = new EmbedBuilder()
+        .setTitle(interaction.user.username)
+        .setDescription(text)
+        .setColor('Blue')
+        .setTimestamp();
+
+      // Send embed in the new channel
+      await channel.send({ embeds: [embed] });
+
+      // Acknowledge the modal submission
+      await interaction.reply({
+        content: `Your panel has been created in ${channel}!`,
+        ephemeral: true
+      });
+    }
+  }
+};
+```
+### 🧠 How it works
+User runs /createpanel
+
+Bot shows a modal
+
+User types text
+
+Bot creates a new channel named after the user
+
+Bot sends an embed inside that channel
+
+Embed title = username
+
+Embed description = modal text
