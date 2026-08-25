@@ -126,6 +126,10 @@ Feel free to follow me maybe, of course only if you want to.
 
 ## ✌️My Badges
 Totally not fake 👀😙
+
+<details>
+  <summary>Click to open this section</summary>
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff)
@@ -140,3 +144,5 @@ Totally not fake 👀😙
 ![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=fff)
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=fff)
 ![Website](https://img.shields.io/badge/Website-1E90FF?style=for-the-badge&logo=googlechrome&logoColor=fff)
+
+<details></details>
