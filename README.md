@@ -135,6 +135,7 @@ Feel free to follow me maybe, of course only if you want to.
 
 ## 👾My Discord
 `_c0raz0n`
+> Although I probably won't friend you lol, sorry.
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
   
