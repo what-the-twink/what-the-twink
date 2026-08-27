@@ -24,14 +24,6 @@ Infrastructure tinkering — hosting, automation, self‑hosting
 Developer focused on interaction systems, automation, and scalable bot features.
 I also work on repositories designed for new developers to help them build bots, structure projects, and understand core backend concepts.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-    <img alt="github contribution snake" src="dist/github-snake.svg" />
-  </picture>
-</p>
-
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
 ## 😘 Code Example Just For You
