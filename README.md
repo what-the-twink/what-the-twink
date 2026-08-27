@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00AEEF,100:7F00FF&height=200&section=header&text=Welcome%20to%20My%20Profile&fontSize=45&fontColor=ffffff&animation=fadeIn">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Welcome%20to%20My%20Profile&fontSize=40&animation=twinkling">
 </p>
 
 I am a Discord Bot Developer & Full‑Stack Learner  
