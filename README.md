@@ -1,32 +1,33 @@
 <div style="
   width: 100%;
-  height: 300px;
-  background-image: url('file:///C:/Users/Windows%2011%20Pro/Downloads/Photos/Favourites/guys%20anal%20cell.jpeg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  height: 260px;
+  background: url('file:///C:/Users/Windows%2011%20Pro/Downloads/Photos/Favourites/guys%20anal%20cell.jpeg') center/cover no-repeat;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
   color: white;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
-  font-size: 40px;
-  font-weight: bold;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  position: relative;
+  overflow: hidden;
 ">
+
   Welcome to My Profile
 
-  <svg style="position:absolute; bottom:0; left:0;" width="100%" height="120px" viewBox="0 0 1440 320">
-    <path fill="url(#grad)" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,197.3C384,181,480,171,576,186.7C672,203,768,245,864,240C960,235,1056,181,1152,170.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  <div style="
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(90deg, #ffb7e5, #b7c8ff, #b7fff1);
+    clip-path: path('M0,40 C200,80 400,0 600,40 C800,80 1000,0 1200,40 L1200,80 L0,80 Z');
+    opacity: 0.85;
+  "></div>
 
-    <defs>
-      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#ffb7e5"/>
-        <stop offset="50%" stop-color="#b7c8ff"/>
-        <stop offset="100%" stop-color="#b7fff1"/>
-      </linearGradient>
-    </defs>
-  </svg>
 </div>
 
 # 😳Hi cutey, I'm what
