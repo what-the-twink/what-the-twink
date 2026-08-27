@@ -1,34 +1,6 @@
-<div style="
-  width: 100%;
-  height: 260px;
-  background: url('file:///C:/Users/Windows%2011%20Pro/Downloads/Photos/Favourites/guys%20anal%20cell.jpeg') center/cover no-repeat;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 42px;
-  font-weight: 700;
-  color: white;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
-  position: relative;
-  overflow: hidden;
-">
-
-  Welcome to My Profile
-
-  <div style="
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background: linear-gradient(90deg, #ffb7e5, #b7c8ff, #b7fff1);
-    clip-path: path('M0,40 C200,80 400,0 600,40 C800,80 1000,0 1200,40 L1200,80 L0,80 Z');
-    opacity: 0.85;
-  "></div>
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00AEEF,100:7F00FF&height=200&section=header&text=Welcome%20to%20My%20Profile&fontSize=45&fontColor=ffffff&animation=fadeIn">
+</p>
 
 # 😳Hi cutey, I'm what
 I am a Discord Bot Developer & Full‑Stack Learner  
