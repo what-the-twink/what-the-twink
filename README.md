@@ -2,6 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00AEEF,100:7F00FF&height=200&section=header&text=Welcome%20to%20My%20Profile&fontSize=45&fontColor=ffffff&animation=fadeIn">
 </p>
 
+# 😳Hi cutey, I'm what
 I am a Discord Bot Developer & Full‑Stack Learner  
 I build interactive Discord systems, experiment with infrastructure, and love exploring new tech.
 
