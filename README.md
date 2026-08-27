@@ -1,6 +1,33 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00AEEF,100:7F00FF&height=200&section=header&text=Welcome%20to%20My%20Profile&fontSize=45&fontColor=ffffff&animation=fadeIn">
-</p>
+<div style="
+  width: 100%;
+  height: 300px;
+  background-image: url('file:///C:/Users/Windows%2011%20Pro/Downloads/Photos/Favourites/guys%20anal%20cell.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  font-size: 40px;
+  font-weight: bold;
+">
+  Welcome to My Profile
+
+  <svg style="position:absolute; bottom:0; left:0;" width="100%" height="120px" viewBox="0 0 1440 320">
+    <path fill="url(#grad)" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,197.3C384,181,480,171,576,186.7C672,203,768,245,864,240C960,235,1056,181,1152,170.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+
+    <defs>
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ffb7e5"/>
+        <stop offset="50%" stop-color="#b7c8ff"/>
+        <stop offset="100%" stop-color="#b7fff1"/>
+      </linearGradient>
+    </defs>
+  </svg>
+</div>
 
 # 😳Hi cutey, I'm what
 I am a Discord Bot Developer & Full‑Stack Learner  
