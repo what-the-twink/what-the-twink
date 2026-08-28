@@ -67,6 +67,7 @@ client.once('ready', () => {
 });
 ```
 <details>
+</details>
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
@@ -93,6 +94,7 @@ const response = await fetch('https://api.example.com/data', {
 });
 ```
 <details>
+</details>
 
 ### 🆕 Newer Modal Components Not Working
 <details>
@@ -150,4 +152,5 @@ modal.addLabelComponents(
     new ActionRowBuilder().addComponents(select)
 );
 ```
+</details>
 </details>
