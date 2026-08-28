@@ -56,24 +56,6 @@ client.once('ready', () => {
 ```
 </details>
 
-
-<div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
-  
-### 🧠 How it works
-User runs /createpanel
-
-Bot shows a modal
-
-User types text
-
-Bot creates a new channel named after the user
-
-Bot sends an embed inside that channel
-
-Embed title = username
-
-Embed description = modal text
-
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
 ## 🌱 I know I am Just so Amazing
