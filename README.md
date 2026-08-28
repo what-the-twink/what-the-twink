@@ -70,9 +70,9 @@ client.once('ready', () => {
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
-<details>
 <summary><strong>Click to expand</strong></summary>
 
+### 🌐 API Requests Failing
 Cause: Missing headers, rate limits, or incorrect endpoint.
 Fix:
 
