@@ -48,12 +48,14 @@ Stop old bot processes on your host.
 <details>
 <summary><strong>Show code example</strong></summary>
 
-js
+```js
 // Avoid double listeners
 client.once('ready', () => {
     console.log('Bot online!');
 });
+```
 </details>
+
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
   
