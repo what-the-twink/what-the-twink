@@ -83,10 +83,10 @@ Verify the API URL and parameters.
 <details>
 <summary><strong>Show code example</strong></summary>
 
-js
+```js
 // Basic fetch with headers
 const response = await fetch('https://api.example.com/data', {
     method: 'GET',
     headers: { 'Content-Type': 'application/json' }
 });
-</details>
+```
