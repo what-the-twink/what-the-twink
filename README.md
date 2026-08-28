@@ -33,8 +33,6 @@ I also work on repositories designed for new developers to help them build bots,
   <summary>Click to open this section</summary>
   
 ### 🔄 Commands Running Twice
-<details>
-<summary><strong>Click to expand</strong></summary>
 
 Cause: Duplicate event listeners or multiple bot instances.
 Fix:
