@@ -69,3 +69,26 @@ client.once('ready', () => {
 </details>
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
+
+<details>
+<summary><strong>Click to expand</strong></summary>
+
+Cause: Missing headers, rate limits, or incorrect endpoint.
+Fix:
+
+Add required headers (e.g., Content-Type: application/json).
+
+Log response status to detect rate limits.
+
+Verify the API URL and parameters.
+
+<details>
+<summary><strong>Show code example</strong></summary>
+
+js
+// Basic fetch with headers
+const response = await fetch('https://api.example.com/data', {
+    method: 'GET',
+    headers: { 'Content-Type': 'application/json' }
+});
+</details>
