@@ -72,6 +72,7 @@ client.once('ready', () => {
 
 
 ### 🌐 API Requests Failing
+<details>
 Cause: Missing headers, rate limits, or incorrect endpoint.
 Fix:
 
@@ -94,7 +95,7 @@ const response = await fetch('https://api.example.com/data', {
 <details>
 
 ### 🆕 Newer Modal Components Not Working
-
+<details>
 <summary><strong>Click to expand</strong></summary>
 
 Cause: Newer modal components (Label Components, Radio Groups, Select Menus inside modals) require strict layout rules.
