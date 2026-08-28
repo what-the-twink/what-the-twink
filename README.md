@@ -26,86 +26,34 @@ I also work on repositories designed for new developers to help them build bots,
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
-## 😘 Code Example Just For You
+## 😘 Common issues
 I know I'm so helpful
 
 <details>
   <summary>Click to open this section</summary>
   
-```js
-const {
-  SlashCommandBuilder,
-  ModalBuilder,
-  TextInputBuilder,
-  TextInputStyle,
-  ActionRowBuilder,
-  ChannelType,
-  EmbedBuilder
-} = require('discord.js');
+🔄 Commands Running Twice
+<details>
+<summary><strong>Click to expand</strong></summary>
 
-module.exports = {
-  data: new SlashCommandBuilder()
-    .setName('createpanel')
-    .setDescription('Opens a modal and creates a channel with the submitted text'),
+Cause: Duplicate event listeners or multiple bot instances.
+Fix:
 
-  async execute(interaction) {
+Ensure client.login() is only called once.
 
-    // Create the modal
-    const modal = new ModalBuilder()
-      .setCustomId('panelModal')
-      .setTitle('Create a Panel');
+Remove duplicate imports or handlers.
 
-    // Create the text input
-    const input = new TextInputBuilder()
-      .setCustomId('panelText')
-      .setLabel('Enter the panel text')
-      .setStyle(TextInputStyle.Paragraph);
+Stop old bot processes on your host.
 
-    // Add input to modal
-    const row = new ActionRowBuilder().addComponents(input);
-    modal.addComponents(row);
+<details>
+<summary><strong>Show code example</strong></summary>
 
-    // Show modal
-    await interaction.showModal(modal);
-  }
-};
-```
-
-```js
-module.exports = {
-  async execute(interaction) {
-
-    // Check if it's the modal
-    if (interaction.isModalSubmit() && interaction.customId === 'panelModal') {
-
-      // Get the text input
-      const text = interaction.fields.getTextInputValue('panelText');
-
-      // Create a new channel
-      const channel = await interaction.guild.channels.create({
-        name: `panel-${interaction.user.username}`,
-        type: ChannelType.GuildText
-      });
-
-      // Build the embed
-      const embed = new EmbedBuilder()
-        .setTitle(interaction.user.username)
-        .setDescription(text)
-        .setColor('Blue')
-        .setTimestamp();
-
-      // Send embed in the new channel
-      await channel.send({ embeds: [embed] });
-
-      // Acknowledge the modal submission
-      await interaction.reply({
-        content: `Your panel has been created in ${channel}!`,
-        ephemeral: true
-      });
-    }
-  }
-};
-```
+js
+// Avoid double listeners
+client.once('ready', () => {
+    console.log('Bot online!');
+});
+</details>
 </details>
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
