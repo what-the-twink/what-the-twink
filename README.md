@@ -67,13 +67,12 @@ client.once('ready', () => {
 });
 ```
 <details>
-</details>
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
 
 ### 🌐 API Requests Failing
-<details>
+
 Cause: Missing headers, rate limits, or incorrect endpoint.
 Fix:
 
