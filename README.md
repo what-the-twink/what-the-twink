@@ -94,11 +94,8 @@ const response = await fetch('https://api.example.com/data', {
 });
 ```
 <details>
-</details>
 
 ### 🆕 Newer Modal Components Not Working
-<details>
-<summary><strong>Click to expand</strong></summary>
 
 Cause: Newer modal components (Label Components, Radio Groups, Select Menus inside modals) require strict layout rules.
 Fix:
