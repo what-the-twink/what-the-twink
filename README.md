@@ -26,6 +26,18 @@ I also work on repositories designed for new developers to help them build bots,
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
+## 🌱 I know I am Just so Amazing
+You are so welcome for that example *mwah.
+Feel free to follow me maybe, of course only if you want to. 
+
+<div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
+
+## 👾My Discord
+`_c0raz0n`
+> Although I probably won't friend you lol, sorry.
+
+<div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
+
 ## 😘 Common issues
 > For discord bots. I know I'm so helpful
 
@@ -55,37 +67,3 @@ client.once('ready', () => {
 </details>
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
-
-## 🌱 I know I am Just so Amazing
-You are so welcome for that example *mwah.
-Feel free to follow me maybe, of course only if you want to. 
-
-<div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
-
-## 👾My Discord
-`_c0raz0n`
-> Although I probably won't friend you lol, sorry.
-
-<div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
-  
-## ✌️My Badges
-Totally not fake 👀😙
-
-<details>
-  <summary>Click to open this section</summary>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff)
-![Discord.js](https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=fff)
-![Express](https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=fff)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=fff)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=fff)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=fff)
-![Discord Bots](https://img.shields.io/badge/Discord_Bot_Developer-5865F2?style=for-the-badge&logo=discord&logoColor=fff)
-![Slash Commands](https://img.shields.io/badge/Slash_Commands-000?style=for-the-badge&logo=slashdot&logoColor=fff)
-![Modals](https://img.shields.io/badge/Modals-1E90FF?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=fff)
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=fff)
-![Website](https://img.shields.io/badge/Website-1E90FF?style=for-the-badge&logo=googlechrome&logoColor=fff)
-
