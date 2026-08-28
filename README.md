@@ -40,6 +40,7 @@ Feel free to follow me maybe, of course only if you want to.
 
 ## 😘 Common issues
 > For discord bots. I know I'm so helpful
+-# *note all code examples are in java script.
 
 <details>
   <summary>Click to open this section</summary>
