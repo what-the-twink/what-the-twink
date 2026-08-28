@@ -66,7 +66,7 @@ client.once('ready', () => {
     console.log('Bot online!');
 });
 ```
-
+<details>
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
 
@@ -91,3 +91,62 @@ const response = await fetch('https://api.example.com/data', {
     headers: { 'Content-Type': 'application/json' }
 });
 ```
+<details>
+
+### 🆕 Newer Modal Components Not Working
+
+<summary><strong>Click to expand</strong></summary>
+
+Cause: Newer modal components (Label Components, Radio Groups, Select Menus inside modals) require strict layout rules.
+Fix:
+
+You must use modal.addLabelComponents() instead of modal.addComponents().
+
+Radio Groups: Max 10 options.
+
+Select Menus: Max 25 options.
+
+Select menus must be wrapped in a Label Component.
+
+Text Display Blocks (Type 10) are non-interactive.
+
+<details>
+<summary><strong>Show code example</strong></summary>
+
+```js
+// Newer modal components example (Discord.js v14.23+)
+const {
+    ModalBuilder,
+    ActionRowBuilder,
+    TextInputBuilder,
+    TextInputStyle,
+    StringSelectMenuBuilder,
+    StringSelectMenuOptionBuilder
+} = require('discord.js');
+
+const modal = new ModalBuilder()
+    .setCustomId('settingsModal')
+    .setTitle('Bot Settings');
+
+// Text input
+const input = new TextInputBuilder()
+    .setCustomId('username')
+    .setLabel('Enter your username')
+    .setStyle(TextInputStyle.Short);
+
+// Select menu (must be wrapped)
+const select = new StringSelectMenuBuilder()
+    .setCustomId('themeSelect')
+    .setPlaceholder('Choose a theme')
+    .addOptions(
+        new StringSelectMenuOptionBuilder().setLabel('Dark').setValue('dark'),
+        new StringSelectMenuOptionBuilder().setLabel('Light').setValue('light')
+    );
+
+// Correct layout
+modal.addLabelComponents(
+    new ActionRowBuilder().addComponents(input),
+    new ActionRowBuilder().addComponents(select)
+);
+```
+</details>
