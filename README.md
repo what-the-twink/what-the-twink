@@ -66,7 +66,6 @@ client.once('ready', () => {
     console.log('Bot online!');
 });
 ```
-</details>
 
 
 <div style="border-left: 4px solid #4A90E2; padding-left: 12px; margin: 20px 0;">
