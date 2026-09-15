@@ -1,8 +1,4 @@
-<div align="center">
-  <img src="file:///C:/Users/Windows%2011%20Pro/Downloads/Photos/Pfp's/Me/Furina.png" alt="Banner" width="100%" />
-</div>
 
-<h1 align="center">Welcome to My Profile 👋</h1>
 
 # 😳Hi cutey, I'm what
 I am a Discord Bot Developer & Full‑Stack Learner  
