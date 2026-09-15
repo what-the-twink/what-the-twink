@@ -1,6 +1,11 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00AEEF,100:7F00FF&height=200&section=header&text=Welcome%20to%20My%20Profile&fontSize=45&fontColor=ffffff&animation=fadeIn">
-</p>
+<div align="center">
+  <img src="file:///C:/Users/Windows%2011%20Pro/Downloads/Photos/Pfp's/Me/Furina.png" 
+       alt="Welcome Banner Background" 
+       style="width: 100%; border-radius: 12px;">
+  <h1 style="margin-top: -80px; color: white; font-size: 48px;">
+    Welcome to My Profile
+  </h1>
+</div>
 
 # 😳Hi cutey, I'm what
 I am a Discord Bot Developer & Full‑Stack Learner  
